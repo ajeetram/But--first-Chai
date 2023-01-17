@@ -1,0 +1,12 @@
+{
+  "name": "hardhat-project",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^1.0.5",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "hardhat": "^2.12.5"
+  },
+  "dependencies": {
+    "create-react-app": "^5.0.1",
+    "dotenv": "^16.0.3"
+  }
+}
