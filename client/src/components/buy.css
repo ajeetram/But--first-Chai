@@ -1,0 +1,177 @@
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: #333;
+    background-color: #fa983a;
+}
+
+form {
+    max-width: 480px;
+    margin: 50px auto;
+    padding: 16px;
+    border: 1px solid #eaeaea;
+    
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select{
+    background-color: #ffffff;
+    border: 1px solid #e5e5e4;
+    font-size: 16px;
+    height: auto;
+    margin: 0;
+    outline: 0;
+    padding: 8px 18px;
+    height: 48px;
+    width: 100%;
+    color: #324960;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+    margin-bottom: 18px;
+    transition: all .4s ease;
+}
+
+input::placeholder {
+    color: #999;
+}
+
+input:focus {
+    border-color: #0f868c;
+}
+
+label {
+    display: block;
+    line-height: 24px;
+    font-size: 19px;
+    font-weight: 500;
+    margin-bottom: 4px;
+    color: #324960;
+}
+select {
+    padding: 2px;
+    height: 32px;
+    border-radius: 5px;
+  }
+
+.light {
+    font-weight: 300;
+    display: inline;
+}
+
+fieldset {
+    margin-bottom: 28px;
+    border: none;
+}
+
+legend {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    color: #324960;
+
+}
+
+button {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 15px 26px;
+    color: #FFF;
+    background-color: #0f868c;
+    border-radius: 4px;
+    border: 1px solid #0f868c;
+    text-align: center;
+    width: 100%;
+}
+
+.acc{
+    max-width: 30%;
+    margin-left: 5px;
+    font-weight: 600;
+    font-size: 25px;
+    text-align: center;
+    color: #324960;
+    
+}
+
+.p1{
+    text-align: center;
+    color: #0f868c;
+}
+
+.imgsec
+{
+    
+    text-align: center;
+}
+
+.icon
+{
+    width: 30%;
+    max-height: 300px;
+}
+.icon2
+{
+    
+    
+    width: 10%;
+    max-height: 200px;
+    padding-bottom: 100px;
+}
+/* .logo
+{
+   
+    margin-right:600px;
+    max-width: 10%;
+    padding-bottom: 100px;
+    max-height: 200px;
+} */
+
+
+
+.column1{
+    float: left;
+    width: 50%;
+    
+  }
+.column2{
+   
+    float: right;
+    margin-right: 10%;
+    width: 50%;
+    
+     
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .AddCard
+{
+    margin-right: 10px;
+    font-size: 40px;
+    margin-bottom: -7px;
+}
+.wallet
+{
+    font-size: 40px;
+    margin-right: 5px;
+    font-size: 40px;
+    margin-bottom: -7px;
+}
+
+.p2{
+    color: #0f868c;
+}
+
+
